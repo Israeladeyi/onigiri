@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { HiMenu, HiX } from 'react-icons/hi';
+import logo from "../assets/animal-shelter.png"
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src="./assets/animal-shelter.png" alt="Onigiri Cat" className="w-10 h-10" />
+          <img src={logo} alt="Onigiri Cat" className="w-10 h-10" />
           <span className="font-bold text-xl text-gray-800">$ONIGIRI</span>
         </div>
 

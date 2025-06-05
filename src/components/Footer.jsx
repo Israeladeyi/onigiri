@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from "../assets/animal-shelter2.png"; // Adjust the path as necessary
 import {
   FaTwitter,
   FaDiscord,
@@ -14,7 +15,7 @@ const Footer = () => {
         {/* Branding */}
         <div className="flex items-center space-x-3">
           <img
-            src="./assets/animal-shelter2.png"
+            src={logo}
             alt="Onigiri Cat Logo"
             className="w-10 h-10"
           />

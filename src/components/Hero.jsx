@@ -1,5 +1,5 @@
 import React from 'react';
-
+import onigri from "../assets/onigiri.jpg"
 const Hero = () => {
   return (
     <section className="bg-gradient-to-b from-yellow-100 to-white py-20 px-4">
@@ -34,7 +34,7 @@ const Hero = () => {
         {/* Image Section */}
         <div className="flex-1">
           <img
-            src="./assets/onigiri.jpg"
+            src={onigri}
             alt="Onigiri Cat"
             className="w-full max-w-sm mx-auto drop-shadow-xl"
           />

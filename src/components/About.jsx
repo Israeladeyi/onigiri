@@ -1,5 +1,5 @@
 import React from 'react';
-
+import onigiri from "../assets/onigiri.jpg"
 const About = () => {
   return (
     <section id="about" className="bg-white py-20 px-4">
@@ -25,7 +25,7 @@ const About = () => {
           {/* Illustration */}
           <div className="md:flex-1">
             <img
-              src="./assets/onigiri.jpg"
+              src={onigiri}
               alt="Onigiri Cat doodle"
               className="mx-auto max-w-xs md:max-w-full"
             />
