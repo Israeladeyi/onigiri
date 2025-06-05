@@ -34,7 +34,7 @@ const Hero = () => {
         {/* Image Section */}
         <div className="flex-1">
           <img
-            src="/src/assets/onigiri.jpg"
+            src="./assets/onigiri.jpg"
             alt="Onigiri Cat"
             className="w-full max-w-sm mx-auto drop-shadow-xl"
           />

@@ -11,7 +11,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src="/src/assets/animal-shelter.png" alt="Onigiri Cat" className="w-10 h-10" />
+          <img src="./assets/animal-shelter.png" alt="Onigiri Cat" className="w-10 h-10" />
           <span className="font-bold text-xl text-gray-800">$ONIGIRI</span>
         </div>
 
