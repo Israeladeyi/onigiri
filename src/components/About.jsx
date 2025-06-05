@@ -25,7 +25,7 @@ const About = () => {
           {/* Illustration */}
           <div className="md:flex-1">
             <img
-              src="/cute-cat-doodle.png"
+              src="src//assets/onigiri.jpg"
               alt="Onigiri Cat doodle"
               className="mx-auto max-w-xs md:max-w-full"
             />

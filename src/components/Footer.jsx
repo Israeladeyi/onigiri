@@ -14,7 +14,7 @@ const Footer = () => {
         {/* Branding */}
         <div className="flex items-center space-x-3">
           <img
-            src="/logo.png"
+            src="/src/assets/animal-shelter2.png"
             alt="Onigiri Cat Logo"
             className="w-10 h-10"
           />
